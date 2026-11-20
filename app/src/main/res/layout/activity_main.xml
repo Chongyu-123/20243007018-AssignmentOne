@@ -30,11 +30,13 @@
             android:textSize="40sp" />
     </FrameLayout>
 
+    <!-- Part C: a green service area and white labels match the supplied example. -->
     <!-- Weighted spacers provide gutters that also grow or shrink with the screen. -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/green"
         android:orientation="vertical">
         <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.08" />
         <!-- Each horizontal row has two equally weighted service cells. -->
@@ -66,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/facilities"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
             <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.08" />
@@ -92,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/events"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
             <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.08" />
@@ -126,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/clubs"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
             <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.08" />
@@ -152,7 +154,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/support"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
             <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.08" />

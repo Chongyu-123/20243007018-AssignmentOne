@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 7: display the supplied logo without adaptive icon layers. -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/img_campuslife_logo"
+    android:gravity="fill"
+    android:filter="true" />
