@@ -6,8 +6,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowInsets;
+import android.widget.Toast;
 
-/** Displays the responsive XML home screen required for Part B. */
+/** Displays the responsive home screen and handles service button clicks. */
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,23 @@ public class MainActivity extends Activity {
             return windowInsets;
         });
         content.requestApplyInsets();
+    }
+
+    // Part E: both XML layouts connect their buttons to these public click handlers.
+    public void onFacilitiesClick(View view) {
+        Toast.makeText(this, R.string.facilities_clicked, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onEventsClick(View view) {
+        Toast.makeText(this, R.string.events_clicked, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onClubsClick(View view) {
+        Toast.makeText(this, R.string.clubs_clicked, Toast.LENGTH_SHORT).show();
+    }
+
+    public void onSupportClick(View view) {
+        Toast.makeText(this, R.string.support_clicked, Toast.LENGTH_SHORT).show();
     }
 
     @SuppressWarnings("deprecation")

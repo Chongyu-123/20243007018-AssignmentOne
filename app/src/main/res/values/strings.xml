@@ -6,4 +6,9 @@
     <string name="events">Events</string>
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
+    <!-- Part E: short feedback identifying the selected service. -->
+    <string name="facilities_clicked">Facilities clicked</string>
+    <string name="events_clicked">Events clicked</string>
+    <string name="clubs_clicked">Clubs clicked</string>
+    <string name="support_clicked">Support clicked</string>
 </resources>
