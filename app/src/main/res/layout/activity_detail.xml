@@ -29,7 +29,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.1" />
 
-            <!-- Facilities is the initial placeholder shown in Figure 5. -->
+            <!-- Part H: Java fills the icon and topic name from the selected array entry. -->
             <ImageView
                 android:id="@+id/detail_icon"
                 android:layout_width="0dp"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- Later assignment parts replace these placeholder strings with topic data. -->
+                <!-- Part H: Java replaces these preview placeholders with array content. -->
                 <TextView
                     android:id="@+id/detail_title"
                     android:layout_width="match_parent"

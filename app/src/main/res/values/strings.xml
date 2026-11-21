@@ -14,4 +14,11 @@
     <!-- Part F: placeholder text for the initial detail page. -->
     <string name="detail_placeholder_title">This is a title</string>
     <string name="detail_placeholder_content">This is content</string>
+    <!-- Part H: banner names use the same order as the supplied data arrays. -->
+    <string-array name="string_array_topics">
+        <item>@string/facilities</item>
+        <item>@string/events</item>
+        <item>@string/clubs</item>
+        <item>@string/support</item>
+    </string-array>
 </resources>
